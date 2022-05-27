@@ -23,7 +23,11 @@ export default {
     head() {
         return {
             meta: [
-                { hid: 't-type', name: 'twitter:card', site: 'https://connekitius.eu.org', title: 'Connek\'s Portfolio', image: 'https://connekitius.eu.org/favicon.ico', description: 'My portfolio built in Nuxt and supported by TypeScript.', content: 'summary' },
+                { hid: 't-title', property: 'twitter:title', content: 'Connek\'s Portfolio' },
+                { hid: 't-url', property: 'twitter:url', content: `${window.location.href}` },
+                { hid: 't-type', name: 'twitter:card', content: 'summary' },
+                { hid: 't-image', name: 'twitter:image', content: 'https://connekitius.eu.org/favicon.ico' },
+                { hid: 't-desc', name: 'twitter:description', content: 'Hello! This is my portfolio, built in Nuxt3 and founded with TypeScript.' }
             ]
         }
     }
