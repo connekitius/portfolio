@@ -26,7 +26,7 @@ export default {
                 { hid: 't-title', property: 'twitter:title', content: 'Connek\'s Portfolio' },
                 { hid: 't-url', property: 'twitter:url', content: `${window.location.href}` },
                 { hid: 't-type', name: 'twitter:card', content: 'summary' },
-                { hid: 't-image', name: 'twitter:image', content: 'https://connekitius.eu.org/favicon.ico' },
+                { hid: 't-image', name: 'twitter:image', content: 'https://connekitius.eu.org/favicon.png' },
                 { hid: 't-desc', name: 'twitter:description', content: 'Hello! This is my portfolio, built in Nuxt3 and founded with TypeScript.' }
             ]
         }
