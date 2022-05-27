@@ -19,6 +19,13 @@ export default {
         redirect: function(event: MouseEvent) {
             window.location.href = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
         }
+    },
+    head() {
+        return {
+            meta: [
+                { hid: 't-type', name: 'twitter:card', site: 'https://connekitius.eu.org', title: 'Connek\'s Portfolio', image: 'https://connekitius.eu.org/favicon.ico', description: 'My portfolio built in Nuxt and supported by TypeScript.', content: 'summary' },
+            ]
+        }
     }
 }
 </script>
