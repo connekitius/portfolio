@@ -25,5 +25,8 @@ export default defineNuxtConfig({
                 autoInstall: true
             })
         ]
+    },
+    generate: {
+        fallback: 'true'
     }
 })
