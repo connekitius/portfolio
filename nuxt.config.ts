@@ -27,6 +27,6 @@ export default defineNuxtConfig({
         ]
     },
     generate: {
-        fallback: 'true'
+        fallback: '404/index.html'
     }
 })
