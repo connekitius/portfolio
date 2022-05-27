@@ -14,7 +14,7 @@ import IconChat from '~icons/mdi/chat'
         </button>
 
         <h1 class="text-5xl font-grape-nuts px-2 text-gray-300">
-            who am i?
+            contact me
         </h1>
 
         <hr class="w-[75%] m-auto border-solid border-t-[3px] border-t-[#bbb] pr-5" />

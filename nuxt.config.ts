@@ -27,6 +27,6 @@ export default defineNuxtConfig({
         ]
     },
     generate: {
-        fallback: '404/index.html'
+        routes: ['/who_am_i', '/projects', '/contact_me']
     }
 })
